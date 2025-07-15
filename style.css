@@ -1,0 +1,167 @@
+html {
+  scroll-padding-top: 80px; /* match or slightly more than nav height */
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111827; /* soft navy */
+  color: #e5e7eb; /* soft light gray */
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background-color: #1e293b;
+  padding: 0;
+  text-align: right;
+}
+
+nav a {
+  color: #60a5fa;
+  margin: 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.main-header {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1f2937;
+  position: sticky;
+  top: 0;
+  border-bottom: 3px solid #60a5fa; /* soft sky blue */
+}
+
+.name {
+  background-color: #1e293b;
+  padding: 80px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.name-content {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* spacing between image and text */
+  flex-wrap: wrap; /* ensures it stacks on smaller screens */
+}
+
+.image-block img.profile-img {
+  border-radius: 20%; /* make it a circle */
+  border: 3px solid #60a5fa;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.text-block h1 {
+  font-size: 50px;
+  color:black;
+  font-family: serif;
+  margin: 0;
+}
+
+.text-block .highlight {
+  color: #60a5fa;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.typing {
+  width: 23ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #60a5fa;
+  font-size: 16px;
+  color: #60a5fa;
+  animation: typing 5s steps(23) infinite, blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  0% { width: 0; }
+  50% { width: 23ch; }
+  100% { width: 0; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.container {
+  padding: 30px;
+}
+
+.about, .skills, .projects, .contacts {
+  background-color: #1e293b;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #60a5fa;
+  margin-top: 0;
+}
+
+.highlight {
+  color: #60a5fa;
+  font-weight: 500;
+}
+
+a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: #111827;
+  border: 1px solid #334155;
+  color: #e5e7eb;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #60a5fa;
+  color: #0f172a;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+img.profile-img {
+  border-radius: 10px;
+  border: 2px solid #60a5fa;
+}
+
+h2{
+  text-align: center;
+  font-size: 35px;
+}
